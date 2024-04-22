@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		510261032B96073A001928DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510261022B96073A001928DF /* AppDelegate.swift */; };
+		510261052B96073A001928DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510261042B96073A001928DF /* SceneDelegate.swift */; };
+		510261072B96073A001928DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510261062B96073A001928DF /* ViewController.swift */; };
+		5102610A2B96073A001928DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 510261082B96073A001928DF /* Main.storyboard */; };
+		5102610C2B96073D001928DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5102610B2B96073D001928DF /* Assets.xcassets */; };
+		5102610F2B96073D001928DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5102610D2B96073D001928DF /* LaunchScreen.storyboard */; };
+		5146BD622BA7256600F9101B /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5146BD602BA7256600F9101B /* CoreData.xcdatamodeld */; };
+		518E340A2BA2313C007DBFBB /* GirişVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518E34092BA2313C007DBFBB /* GirişVC.swift */; };
+		51F0F48D2BC8A70F00772998 /* brainStormAnimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 51F0F48C2BC8A70F00772998 /* brainStormAnimation.json */; };
+		C8AB2C5C25DC71A57D6A0DCF /* Pods_SudokuV1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48E58ABD5530B6424784A7C1 /* Pods_SudokuV1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		448DC179E058781E36E61150 /* Pods-SudokuV1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuV1.release.xcconfig"; path = "Target Support Files/Pods-SudokuV1/Pods-SudokuV1.release.xcconfig"; sourceTree = "<group>"; };
+		48E58ABD5530B6424784A7C1 /* Pods_SudokuV1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SudokuV1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		510260FF2B96073A001928DF /* SudokuV1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SudokuV1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		510261022B96073A001928DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		510261042B96073A001928DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		510261062B96073A001928DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		510261092B96073A001928DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5102610B2B96073D001928DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5102610E2B96073D001928DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		510261102B96073D001928DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5146BD612BA7256600F9101B /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		518E34092BA2313C007DBFBB /* GirişVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GirişVC.swift"; sourceTree = "<group>"; };
+		51F0F48C2BC8A70F00772998 /* brainStormAnimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = brainStormAnimation.json; sourceTree = "<group>"; };
+		755B5D58EB89E599622F66AA /* Pods-SudokuV1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SudokuV1.debug.xcconfig"; path = "Target Support Files/Pods-SudokuV1/Pods-SudokuV1.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		510260FC2B960739001928DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8AB2C5C25DC71A57D6A0DCF /* Pods_SudokuV1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C38CD7AFDF8984259CB24EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				48E58ABD5530B6424784A7C1 /* Pods_SudokuV1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		510260F62B960739001928DF = {
+			isa = PBXGroup;
+			children = (
+				510261012B96073A001928DF /* SudokuV1 */,
+				510261002B96073A001928DF /* Products */,
+				A4DB197723051EF9B627ACFC /* Pods */,
+				3C38CD7AFDF8984259CB24EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		510261002B96073A001928DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				510260FF2B96073A001928DF /* SudokuV1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		510261012B96073A001928DF /* SudokuV1 */ = {
+			isa = PBXGroup;
+			children = (
+				510261022B96073A001928DF /* AppDelegate.swift */,
+				510261042B96073A001928DF /* SceneDelegate.swift */,
+				518E34092BA2313C007DBFBB /* GirişVC.swift */,
+				510261062B96073A001928DF /* ViewController.swift */,
+				510261082B96073A001928DF /* Main.storyboard */,
+				5102610B2B96073D001928DF /* Assets.xcassets */,
+				5102610D2B96073D001928DF /* LaunchScreen.storyboard */,
+				510261102B96073D001928DF /* Info.plist */,
+				5146BD602BA7256600F9101B /* CoreData.xcdatamodeld */,
+				51F0F48C2BC8A70F00772998 /* brainStormAnimation.json */,
+			);
+			path = SudokuV1;
+			sourceTree = "<group>";
+		};
+		A4DB197723051EF9B627ACFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				755B5D58EB89E599622F66AA /* Pods-SudokuV1.debug.xcconfig */,
+				448DC179E058781E36E61150 /* Pods-SudokuV1.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		510260FE2B960739001928DF /* SudokuV1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 510261132B96073D001928DF /* Build configuration list for PBXNativeTarget "SudokuV1" */;
+			buildPhases = (
+				1AB2FFAA287A8A02D5F39A6A /* [CP] Check Pods Manifest.lock */,
+				510260FB2B960739001928DF /* Sources */,
+				510260FC2B960739001928DF /* Frameworks */,
+				510260FD2B960739001928DF /* Resources */,
+				E0E83C0DA674111723DC8E72 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SudokuV1;
+			productName = SudokuV1;
+			productReference = 510260FF2B96073A001928DF /* SudokuV1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		510260F72B960739001928DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					510260FE2B960739001928DF = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1530;
+					};
+				};
+			};
+			buildConfigurationList = 510260FA2B960739001928DF /* Build configuration list for PBXProject "SudokuV1" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 510260F62B960739001928DF;
+			productRefGroup = 510261002B96073A001928DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				510260FE2B960739001928DF /* SudokuV1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		510260FD2B960739001928DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5102610F2B96073D001928DF /* LaunchScreen.storyboard in Resources */,
+				51F0F48D2BC8A70F00772998 /* brainStormAnimation.json in Resources */,
+				5102610C2B96073D001928DF /* Assets.xcassets in Resources */,
+				5102610A2B96073A001928DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB2FFAA287A8A02D5F39A6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SudokuV1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0E83C0DA674111723DC8E72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudokuV1/Pods-SudokuV1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SudokuV1/Pods-SudokuV1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SudokuV1/Pods-SudokuV1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		510260FB2B960739001928DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				510261072B96073A001928DF /* ViewController.swift in Sources */,
+				510261032B96073A001928DF /* AppDelegate.swift in Sources */,
+				5146BD622BA7256600F9101B /* CoreData.xcdatamodeld in Sources */,
+				510261052B96073A001928DF /* SceneDelegate.swift in Sources */,
+				518E340A2BA2313C007DBFBB /* GirişVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		510261082B96073A001928DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				510261092B96073A001928DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5102610D2B96073D001928DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5102610E2B96073D001928DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		510261112B96073D001928DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		510261122B96073D001928DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		510261142B96073D001928DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 755B5D58EB89E599622F66AA /* Pods-SudokuV1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SudokuV1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetdora.SudokuV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		510261152B96073D001928DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448DC179E058781E36E61150 /* Pods-SudokuV1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZT75FQ3SLS;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SudokuV1/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mehmetdora.SudokuV1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		510260FA2B960739001928DF /* Build configuration list for PBXProject "SudokuV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510261112B96073D001928DF /* Debug */,
+				510261122B96073D001928DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		510261132B96073D001928DF /* Build configuration list for PBXNativeTarget "SudokuV1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				510261142B96073D001928DF /* Debug */,
+				510261152B96073D001928DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5146BD602BA7256600F9101B /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5146BD612BA7256600F9101B /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 5146BD612BA7256600F9101B /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 510260F72B960739001928DF /* Project object */;
+}
